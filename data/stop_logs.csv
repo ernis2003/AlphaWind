@@ -1,0 +1,39 @@
+ timestamp_start,timestamp_end,turbine_id,stop_code,comment
+2026-03-02 01:30:00,2026-03-02 03:00:00,T02,FLT,Hydraulic technical fault #1
+2026-03-02 06:40:00,2026-03-02 08:10:00,T04,FLT,Hydraulic technical fault #1
+2026-03-03 11:50:00,2026-03-03 14:50:00,T06,MTN,Scheduled maintenance
+2026-03-03 23:20:00,2026-03-04 00:50:00,T03,FLT,Hydraulic technical fault #1
+2026-03-04 09:00:00,2026-03-04 11:00:00,T01,GRD,Park-level grid limitation
+2026-03-04 09:00:00,2026-03-04 11:00:00,T02,GRD,Park-level grid limitation
+2026-03-04 09:00:00,2026-03-04 11:00:00,T03,GRD,Park-level grid limitation
+2026-03-04 09:00:00,2026-03-04 11:00:00,T04,GRD,Park-level grid limitation
+2026-03-04 09:00:00,2026-03-04 11:00:00,T05,GRD,Park-level grid limitation
+2026-03-04 09:00:00,,T06,GRD,Park-level grid limitation
+2026-03-04 15:50:00,2026-03-04 17:20:00,T04,FLT,Hydraulic technical fault #2
+2026-03-05 00:10:00,2026-03-05 02:10:00,T01,FLT,Hydraulic technical fault #1
+2026-03-05 13:10:00,2026-03-05 16:10:00,T04,MTN,Scheduled maintenance
+2026-03-06 05:10:00,2026-03-06 06:40:00,T04,FLT,Hydraulic technical fault #3
+2026-03-06 08:10:00,2026-03-06 10:10:00,T01,GRD,Park-level grid limitation
+2026-03-06 08:10:00,,T03,GRD,Park-level grid limitation
+2026-03-06 08:10:00,2026-03-06 10:10:00,T04,GRD,Park-level grid limitation
+2026-03-06 08:10:00,2026-03-06 10:10:00,T05,GRD,Park-level grid limitation
+2026-03-06 08:10:00,2026-03-06 10:10:00,T06,GRD,Park-level grid limitation
+2026-03-06 14:40:00,2026-03-06 17:30:00,T01,WND,High wind shutdown
+2026-03-06 14:40:00,2026-03-06 17:30:00,T02,WND,High wind shutdown
+2026-03-06 14:40:00,2026-03-06 17:30:00,T03,WND,High wind shutdown
+2026-03-06 14:40:00,,T04,WND,High wind shutdown
+2026-03-06 14:40:00,2026-03-06 17:30:00,T05,WND,High wind shutdown
+2026-03-06 14:40:00,,T06,WND,High wind shutdown
+2026-03-06 19:30:00,2026-03-06 21:00:00,T05,FLT,Hydraulic technical fault #1
+2026-03-06 21:30:00,2026-03-06 23:30:00,T01,GRD,Park-level grid limitation
+2026-03-06 21:30:00,2026-03-06 23:30:00,T01,GRD,Park-level grid limitation
+2026-03-06 21:30:00,2026-03-06 23:30:00,T02,GRD,Park-level grid limitation
+2026-03-06 21:30:00,2026-03-06 23:30:00,T03,GRD,Park-level grid limitation
+2026-03-06 21:30:00,2026-03-06 23:30:00,T04,GRD,Park-level grid limitation
+2026-03-06 21:30:00,2026-03-06 23:30:00,T05,GRD,Park-level grid limitation
+2026-03-07 05:00:00,2026-03-07 06:00:00,T01,WND,High wind shutdown
+2026-03-07 05:00:00,2026-03-07 06:00:00,T02,WND,High wind shutdown
+2026-03-07 05:00:00,2026-03-07 06:00:00,T03,WND,High wind shutdown
+2026-03-07 05:00:00,2026-03-07 06:00:00,T04,WND,High wind shutdown
+2026-03-07 05:00:00,2026-03-07 06:00:00,T05,WND,High wind shutdown
+2026-03-07 05:00:00,2026-03-07 06:00:00,T06,WND,High wind shutdown
