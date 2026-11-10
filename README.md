@@ -19,7 +19,7 @@ During the investigation, I found several important results:
 ## Park-Level Performance
 During the 7-day period (2026-03-01 to 2026-03-07), the wind farm generated a total of 642.33 MWh of energy.
 
-![alt text](image-4.png)
+![alt text](image-3.png)
 
 During this period, different types of operational stops were recorded, including park-level grid limitations (GRD), hydraulic technical faults (FLT), scheduled maintenance (MTN), and high-wind shutdowns (WND).
 
@@ -62,13 +62,16 @@ First, I compared the total energy production of each turbine to identify which 
 ![alt text](image-6.png)
 
 After that, I analyzed turbine availability to understand how much time each turbine was available for energy production. Threshold 90% was selected as an example, in real world value can vary. This information could be usefull for investors and consumers.
-![alt text](image-7.png)
+![alt text](image-1.png)
 
 Also, I compared the number of stops for each turbine to identify which turbines experienced more operational interruptions. We can see, that it's quite hard to see correlation between how long ago service was provided to turbine and the operational interruptions.
 ![alt text](image-8.png)
 
-Finally, I compared estimated energy losses by cause for each turbine to understand which operational events had the biggest impact on their production. We can see, that each bar has a huge loss on High wind shutdowns. This is provided from theoretical side by ignoring security reasons, that turbine would be able to generate 252.5kWh, but in practice this value would be equal to 0kWh, because it is not safe.   
+The chart includes a theoretical energy shortfall during high-wind shutdowns (WND), assuming that each turbine could generate 252.5 kWh per 10-minute interval. However, this is only a hypothetical scenario, as turbines must shut down during extreme wind conditions for safety reasons. Therefore, these values should not be considered recoverable energy losses. 
 ![alt text](image-9.png)
+
+Excluding theoretical WND losses, T04 shows the highest estimated shortfall (17.83 MWh), mainly due to unexplained underperformance. Grid limitations (GRD) also contribute significantly, highlighting areas for further investigation.
+![alt text](image.png)
 
 I also compared energy production at different wind speeds to understand how efficiently each turbine was operating.
 
